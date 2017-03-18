@@ -1,0 +1,31 @@
+{
+  "name": "learning-gulp",
+  "version": "1.0.0",
+  "description": "Aprendendo a utilizar Gulp",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Start\"",
+    "test": "echo \"Test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edvaldoszy/learning-gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Edvaldo Szymonek <edvaldoszy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edvaldoszy/learning-gulp/issues"
+  },
+  "homepage": "https://github.com/edvaldoszy/learning-gulp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "gulp-watch": "^4.3.11",
+    "typescript": "^2.2.1"
+  }
+}
