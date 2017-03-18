@@ -9,11 +9,11 @@ gulp.task("compile", function() {
 });
 
 gulp.task("dev", function() {
-    gulp.run("compile");
+    gulp.start("compile");
 
     gulp.watch("src/**/*.ts", function(event) {
         console.dir(event);
         console.log("File " + event.path + " was " + event.type + ", running tasks...");
-        gulp.run("compile");
+        gulp.start("compile");
     });
 });
